@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,200;16..144,700&family=Montez&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montagu Slab", serif;
+}
+h1 {
+  font-family: "Montagu Slab", serif;
+  color: white;
+  font-weight: 900;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.437);
+  border-bottom: 20px;
+  position: relative;
+}
+
+body {
+  background-color: #e1bee7;
+}
+.fruits-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+  border: 30px;
+  align-items: center;
+  gap: 20px;
+  border-radius: 100px;
+  border: 20px dotted plum;
+  margin: 20px;
+}
+img {
+  height: 250px;
+  width: 250px;
+  padding: 20px 20px 0px 20px;
+}
+.App {
+  text-align: center;
+  align-items: center;
+  border-bottom: 20px;
+}
+.card {
+  height: 300px;
+  width: 500px;
+  background-color: rgba(255, 255, 255);
+  border: 20px;
+  display: flex;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 60px;
+}
+.card p {
+  font-size: 24px;
+}
+h2 {
+  font-family: "Montez", serif;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+ul {
+  margin-bottom: 20px;
+}
+ul > li {
+  text-align: start;
+}
+.benefits {
+  align-self: center;
+}
+footer {
+  font-size: 12px;
+}
+button {
+  background-color: #ea80fc;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 5px;
+  width: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+button:hover {
+  background-color: #d500f9;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure the overlay appears on top */
+}
+.overlay form label {
+  display: flex;
+}
+label {
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: bisque;
+}
+.table {
+  align-items: center;
+  text-align: center;
+}
+table {
+  table-layout: auto;
+  width: 100%;
+  border: 3px double black;
+}
+.heading {
+  color: #f50057;
+}
+.line {
+  margin: 20px;
+  border-radius: 50px;
+  border: 5px #f50057 double;
+}
+.list-quantity {
+  align-items: center;
+  text-align: center;
+}
