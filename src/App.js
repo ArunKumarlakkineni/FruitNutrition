@@ -5,7 +5,7 @@ const fruits = [
   {
     quantity: true,
     name: "Apple",
-    image: "/images/apple.jpg",
+    image: "images/apple.jpg",
     benefits: {
       calories: 95,
       carbs: 25,
@@ -17,7 +17,7 @@ const fruits = [
   {
     quantity: true,
     name: "Avocado",
-    image: "/images/avocado.jpg",
+    image: "images/avocado.jpg",
     benefits: {
       calories: 240,
       carbs: 13,
@@ -29,7 +29,7 @@ const fruits = [
   {
     quantity: false,
     name: "Grapes",
-    image: "/images/grape.jpg",
+    image: "images/grape.jpg",
     benefits: {
       calories: 67,
       carbs: 17,
@@ -41,7 +41,7 @@ const fruits = [
   {
     quantity: true,
     name: "Orange",
-    image: "/images/orange.jpg",
+    image: "images/orange.jpg",
     benefits: {
       calories: 73,
       carbs: 16.5,
@@ -53,7 +53,7 @@ const fruits = [
   {
     quantity: false,
     name: "Pineapple",
-    image: "/images/pineapple.jpg",
+    image: "images/pineapple.jpg",
     benefits: {
       calories: 50,
       carbs: 13,
@@ -65,7 +65,7 @@ const fruits = [
   {
     quantity: false,
     name: "Strawberry",
-    image: "/images/strawberry.jpg",
+    image: "images/strawberry.jpg",
     benefits: {
       calories: 32,
       carbs: 7.7,
