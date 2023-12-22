@@ -20,7 +20,7 @@ body {
   background-color: #e1bee7;
 }
 .fruits-list {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 50px;
   border: 30px;
@@ -28,7 +28,16 @@ body {
   gap: 20px;
   border-radius: 100px;
   border: 20px dotted plum;
-  margin: 20px;
+  margin: 20px; */
+  /* width: 100%;
+  overflow: auto; */
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-template-rows: repeat(2, 1fr); /* Two rows */
+  gap: 20px; /* Gap between rows and columns */
+  overflow: auto;
+  
 }
 img {
   height: 250px;
@@ -51,7 +60,8 @@ img {
   align-items: center;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 60px;
+  border-radius: 45px;
+  margin-right: 20px;
 }
 .card p {
   font-size: 24px;

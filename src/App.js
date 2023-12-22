@@ -290,8 +290,10 @@ function FixedForm({ fruit, onHandleItem }) {
           <div>
             <label>Quantity</label>
             <input
+            type="Number"
               value={quantity}
               onChange={(e) => setQuantity(Number(e.target.value))}
+              min="1"
             />
           </div>
           <button type="submit">Submit</button>
